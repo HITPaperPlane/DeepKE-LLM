@@ -19,7 +19,15 @@ def main():
     parser.add_argument("--api_base", default="http://192.168.11.218:8192/v1")
     args = parser.parse_args()
     client = OpenAI(api_key="EMPTY", base_url=args.api_base)
-    data = [json.loads(l) for l in open(args.input)] if args.input.endswith('.jsonl') else json.load(open(args.input))
+    # load dataset. Some files use jsonl format but keep `.json` suffix
+    if args.input.endswith('.jsonl'):
+        data = [json.loads(l) for l in open(args.input)]
+    else:
+        try:
+            data = json.load(open(args.input))
+        except json.JSONDecodeError:
+            # fall back to json lines
+            data = [json.loads(l) for l in open(args.input)]
     augmented = []
     for item in data:
         text = item.get("text", item.get("input", ""))
