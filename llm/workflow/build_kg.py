@@ -19,7 +19,8 @@ def main():
     parser.add_argument('--api_base', default='http://192.168.11.218:8192/v1')
     args = parser.parse_args()
     client = OpenAI(api_key='EMPTY', base_url=args.api_base)
-    data = json.load(open(args.input))
+    # data = json.load(open(args.input))
+    data = [json.loads(line) for line in open(args.input)]
     results = []
     for item in data:
         triples = build_triples(client, item['text'], '抽取知识图谱三元组：')
