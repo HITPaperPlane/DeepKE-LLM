@@ -1,4 +1,0 @@
-use_wandb: False
-defaults:
-  - hydra/output: custom
-  - train

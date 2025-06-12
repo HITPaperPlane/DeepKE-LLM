@@ -1,6 +1,0 @@
-cwd: ???
-use_wandb: False
-
-defaults:
-  - train/conll
-  
