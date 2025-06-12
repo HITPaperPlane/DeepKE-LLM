@@ -44,8 +44,8 @@
     - [Case 1: OpenDelta Fine-tuning of Moss for CCKS2023 Instruction-based KG Construction English | Chinese](#case-1-opendelta-fine-tuning-of-moss-for-ccks2023-instruction-based-kg-construction-english--chinese)
   - [Baichuan](#baichuan)
     - [Case 1: OpenDelta Fine-tuning of Baichuan for CCKS2023 Instruction-based KG Construction English | Chinese](#case-1-opendelta-fine-tuning-of-baichuan-for-ccks2023-instruction-based-kg-construction-english--chinese)
-  - [CPM-Bee](#cpm-bee)
-    - [Case 1: OpenDelta Fine-tuning of CPM-Bee for CCKS2023 Instruction-based KG Construction English | Chinese](#case-1-opendelta-fine-tuning-of-cpm-bee-for-ccks2023-instruction-based-kg-construction-english--chinese)
+  - [OpenAPIKG](#openapikg)
+    - [Case 1: Knowledge Graph Construction via OpenAPI LLM](#case-1-knowledge-graph-construction-via-openapi-llm)
   - [GPT-series](#gpt-series)
     - [Case 1: Information Extraction with LLMs English | Chinese](#case-1-information-extraction-with-llms-english--chinese)
     - [Case 2: Data Augmentation with LLMs English | Chinese](#case-2-data-augmentation-with-llms-english--chinese)
@@ -232,8 +232,8 @@ ZhiXi follows a two-step approach: (1) It performs further full pre-training on 
 
 
 
-## CPM-Bee
-### Case 1: OpenDelta Fine-tuning of CPM-Bee for CCKS2023 Instruction-based KG Construction [English](./CPM-Bee/README.md) | [Chinese](./CPM-Bee/README_CN.md) 
+## OpenAPIKG
+### Case 1: Knowledge Graph Construction via OpenAPI LLM [English](./OpenAPIKG/README.md) | [Chinese](./OpenAPIKG/README_CN.md)
 
 
 

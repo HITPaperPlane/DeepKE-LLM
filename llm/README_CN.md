@@ -44,8 +44,8 @@
     - [案例一：Lora微调Moss完成CCKS2023指令驱动的知识图谱构建 英文 | 中文](#案例一lora微调moss完成ccks2023指令驱动的知识图谱构建-英文--中文)
   - [Baichuan](#baichuan)
     - [Case 1: Lora微调Baichuan完成CCKS2023指令驱动的知识图谱构建 英文 | 中文](#case-1-lora微调baichuan完成ccks2023指令驱动的知识图谱构建-英文--中文)
-  - [CPM-Bee](#cpm-bee)
-    - [案例一：OpenDelta微调CPM-Bee完成CCKS2023指令驱动的知识图谱构建 英文 | 中文](#案例一opendelta微调cpm-bee完成ccks2023指令驱动的知识图谱构建-英文--中文)
+  - [OpenAPIKG](#openapikg)
+    - [案例一：使用OpenAPI接口构建知识图谱](#案例一使用openapi接口构建知识图谱)
   - [GPT系列](#gpt系列)
     - [案例一：ICL使用大语言模型进行信息抽取 英文 | 中文](#案例一icl使用大语言模型进行信息抽取-英文--中文)
     - [案例二：ICL使用大语言模型进行数据增强 英文 | 中文](#案例二icl使用大语言模型进行数据增强-英文--中文)
@@ -215,8 +215,8 @@ LLaMA，它是一组从7B到65B参数的基础语言模型。我们还提供了�
 
 
 
-## CPM-Bee
-### 案例一：OpenDelta微调CPM-Bee完成CCKS2023指令驱动的知识图谱构建 [英文](./CPM-Bee/README.md) | [中文](./CPM-Bee/README_CN.md) 
+## OpenAPIKG
+### 案例一：使用OpenAPI接口构建知识图谱 [英文](./OpenAPIKG/README.md) | [中文](./OpenAPIKG/README_CN.md)
 
 
 
